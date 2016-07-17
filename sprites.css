@@ -1,0 +1,2160 @@
+
+.thumbnails-sprite, .pkmn-1, .pkmn-10, .pkmn-100, .pkmn-101, .pkmn-102, .pkmn-103, .pkmn-104, .pkmn-105, .pkmn-106, .pkmn-107, .pkmn-108, .pkmn-109, .pkmn-11, .pkmn-110, .pkmn-111, .pkmn-112, .pkmn-113, .pkmn-114, .pkmn-115, .pkmn-116, .pkmn-117, .pkmn-118, .pkmn-119, .pkmn-12, .pkmn-120, .pkmn-121, .pkmn-122, .pkmn-123, .pkmn-124, .pkmn-125, .pkmn-126, .pkmn-127, .pkmn-128, .pkmn-129, .pkmn-13, .pkmn-130, .pkmn-131, .pkmn-132, .pkmn-133, .pkmn-134, .pkmn-135, .pkmn-136, .pkmn-137, .pkmn-138, .pkmn-139, .pkmn-14, .pkmn-140, .pkmn-141, .pkmn-142, .pkmn-143, .pkmn-144, .pkmn-145, .pkmn-146, .pkmn-147, .pkmn-148, .pkmn-149, .pkmn-15, .pkmn-150, .pkmn-151, .pkmn-152, .pkmn-153, .pkmn-154, .pkmn-155, .pkmn-156, .pkmn-157, .pkmn-158, .pkmn-159, .pkmn-16, .pkmn-160, .pkmn-161, .pkmn-162, .pkmn-163, .pkmn-164, .pkmn-165, .pkmn-166, .pkmn-167, .pkmn-168, .pkmn-169, .pkmn-17, .pkmn-170, .pkmn-171, .pkmn-172, .pkmn-173, .pkmn-174, .pkmn-175, .pkmn-176, .pkmn-177, .pkmn-178, .pkmn-179, .pkmn-18, .pkmn-180, .pkmn-181, .pkmn-182, .pkmn-183, .pkmn-184, .pkmn-185, .pkmn-186, .pkmn-187, .pkmn-188, .pkmn-189, .pkmn-19, .pkmn-190, .pkmn-191, .pkmn-192, .pkmn-193, .pkmn-194, .pkmn-195, .pkmn-196, .pkmn-197, .pkmn-198, .pkmn-199, .pkmn-2, .pkmn-20, .pkmn-200, .pkmn-201, .pkmn-202, .pkmn-203, .pkmn-204, .pkmn-205, .pkmn-206, .pkmn-207, .pkmn-208, .pkmn-209, .pkmn-21, .pkmn-210, .pkmn-211, .pkmn-212, .pkmn-213, .pkmn-214, .pkmn-215, .pkmn-216, .pkmn-217, .pkmn-218, .pkmn-219, .pkmn-22, .pkmn-220, .pkmn-221, .pkmn-222, .pkmn-223, .pkmn-224, .pkmn-225, .pkmn-226, .pkmn-227, .pkmn-228, .pkmn-229, .pkmn-23, .pkmn-230, .pkmn-231, .pkmn-232, .pkmn-233, .pkmn-234, .pkmn-235, .pkmn-236, .pkmn-237, .pkmn-238, .pkmn-239, .pkmn-24, .pkmn-240, .pkmn-241, .pkmn-242, .pkmn-243, .pkmn-244, .pkmn-245, .pkmn-246, .pkmn-247, .pkmn-248, .pkmn-249, .pkmn-25, .pkmn-250, .pkmn-251, .pkmn-252, .pkmn-253, .pkmn-254, .pkmn-255, .pkmn-256, .pkmn-257, .pkmn-258, .pkmn-259, .pkmn-26, .pkmn-260, .pkmn-261, .pkmn-262, .pkmn-263, .pkmn-264, .pkmn-265, .pkmn-266, .pkmn-267, .pkmn-268, .pkmn-269, .pkmn-27, .pkmn-270, .pkmn-271, .pkmn-272, .pkmn-273, .pkmn-274, .pkmn-275, .pkmn-276, .pkmn-277, .pkmn-278, .pkmn-279, .pkmn-28, .pkmn-280, .pkmn-281, .pkmn-282, .pkmn-283, .pkmn-284, .pkmn-285, .pkmn-286, .pkmn-287, .pkmn-288, .pkmn-289, .pkmn-29, .pkmn-290, .pkmn-291, .pkmn-292, .pkmn-293, .pkmn-294, .pkmn-295, .pkmn-296, .pkmn-297, .pkmn-298, .pkmn-299, .pkmn-3, .pkmn-30, .pkmn-300, .pkmn-301, .pkmn-302, .pkmn-303, .pkmn-304, .pkmn-305, .pkmn-306, .pkmn-307, .pkmn-308, .pkmn-309, .pkmn-31, .pkmn-310, .pkmn-311, .pkmn-312, .pkmn-313, .pkmn-314, .pkmn-315, .pkmn-316, .pkmn-317, .pkmn-318, .pkmn-319, .pkmn-32, .pkmn-320, .pkmn-321, .pkmn-322, .pkmn-323, .pkmn-324, .pkmn-325, .pkmn-326, .pkmn-327, .pkmn-328, .pkmn-329, .pkmn-33, .pkmn-330, .pkmn-331, .pkmn-332, .pkmn-333, .pkmn-334, .pkmn-335, .pkmn-336, .pkmn-337, .pkmn-338, .pkmn-339, .pkmn-34, .pkmn-340, .pkmn-341, .pkmn-342, .pkmn-343, .pkmn-344, .pkmn-345, .pkmn-346, .pkmn-347, .pkmn-348, .pkmn-349, .pkmn-35, .pkmn-350, .pkmn-351, .pkmn-352, .pkmn-353, .pkmn-354, .pkmn-355, .pkmn-356, .pkmn-357, .pkmn-358, .pkmn-359, .pkmn-36, .pkmn-360, .pkmn-361, .pkmn-362, .pkmn-363, .pkmn-364, .pkmn-365, .pkmn-366, .pkmn-367, .pkmn-368, .pkmn-369, .pkmn-37, .pkmn-370, .pkmn-371, .pkmn-372, .pkmn-373, .pkmn-374, .pkmn-375, .pkmn-376, .pkmn-377, .pkmn-378, .pkmn-379, .pkmn-38, .pkmn-380, .pkmn-381, .pkmn-382, .pkmn-383, .pkmn-384, .pkmn-385, .pkmn-386, .pkmn-387, .pkmn-388, .pkmn-389, .pkmn-39, .pkmn-390, .pkmn-391, .pkmn-392, .pkmn-393, .pkmn-394, .pkmn-395, .pkmn-396, .pkmn-397, .pkmn-398, .pkmn-399, .pkmn-4, .pkmn-40, .pkmn-400, .pkmn-401, .pkmn-402, .pkmn-403, .pkmn-404, .pkmn-405, .pkmn-406, .pkmn-407, .pkmn-408, .pkmn-409, .pkmn-41, .pkmn-410, .pkmn-411, .pkmn-412, .pkmn-413, .pkmn-414, .pkmn-415, .pkmn-416, .pkmn-417, .pkmn-418, .pkmn-419, .pkmn-42, .pkmn-420, .pkmn-421, .pkmn-422, .pkmn-423, .pkmn-424, .pkmn-425, .pkmn-426, .pkmn-427, .pkmn-428, .pkmn-429, .pkmn-43, .pkmn-430, .pkmn-431, .pkmn-432, .pkmn-433, .pkmn-434, .pkmn-435, .pkmn-436, .pkmn-437, .pkmn-438, .pkmn-439, .pkmn-44, .pkmn-440, .pkmn-441, .pkmn-442, .pkmn-443, .pkmn-444, .pkmn-445, .pkmn-446, .pkmn-447, .pkmn-448, .pkmn-449, .pkmn-45, .pkmn-450, .pkmn-451, .pkmn-452, .pkmn-453, .pkmn-454, .pkmn-455, .pkmn-456, .pkmn-457, .pkmn-458, .pkmn-459, .pkmn-46, .pkmn-460, .pkmn-461, .pkmn-462, .pkmn-463, .pkmn-464, .pkmn-465, .pkmn-466, .pkmn-467, .pkmn-468, .pkmn-469, .pkmn-47, .pkmn-470, .pkmn-471, .pkmn-472, .pkmn-473, .pkmn-474, .pkmn-475, .pkmn-476, .pkmn-477, .pkmn-478, .pkmn-479, .pkmn-48, .pkmn-480, .pkmn-481, .pkmn-482, .pkmn-483, .pkmn-484, .pkmn-485, .pkmn-486, .pkmn-487, .pkmn-488, .pkmn-489, .pkmn-49, .pkmn-490, .pkmn-491, .pkmn-492, .pkmn-493, .pkmn-494, .pkmn-495, .pkmn-496, .pkmn-497, .pkmn-498, .pkmn-499, .pkmn-5, .pkmn-50, .pkmn-500, .pkmn-501, .pkmn-502, .pkmn-503, .pkmn-504, .pkmn-505, .pkmn-506, .pkmn-507, .pkmn-508, .pkmn-509, .pkmn-51, .pkmn-510, .pkmn-511, .pkmn-512, .pkmn-513, .pkmn-514, .pkmn-515, .pkmn-516, .pkmn-517, .pkmn-518, .pkmn-519, .pkmn-52, .pkmn-520, .pkmn-521, .pkmn-522, .pkmn-523, .pkmn-524, .pkmn-525, .pkmn-526, .pkmn-527, .pkmn-528, .pkmn-529, .pkmn-53, .pkmn-530, .pkmn-531, .pkmn-532, .pkmn-533, .pkmn-534, .pkmn-535, .pkmn-536, .pkmn-537, .pkmn-538, .pkmn-539, .pkmn-54, .pkmn-540, .pkmn-541, .pkmn-542, .pkmn-543, .pkmn-544, .pkmn-545, .pkmn-546, .pkmn-547, .pkmn-548, .pkmn-549, .pkmn-55, .pkmn-550, .pkmn-551, .pkmn-552, .pkmn-553, .pkmn-554, .pkmn-555, .pkmn-556, .pkmn-557, .pkmn-558, .pkmn-559, .pkmn-56, .pkmn-560, .pkmn-561, .pkmn-562, .pkmn-563, .pkmn-564, .pkmn-565, .pkmn-566, .pkmn-567, .pkmn-568, .pkmn-569, .pkmn-57, .pkmn-570, .pkmn-571, .pkmn-572, .pkmn-573, .pkmn-574, .pkmn-575, .pkmn-576, .pkmn-577, .pkmn-578, .pkmn-579, .pkmn-58, .pkmn-580, .pkmn-581, .pkmn-582, .pkmn-583, .pkmn-584, .pkmn-585, .pkmn-586, .pkmn-587, .pkmn-588, .pkmn-589, .pkmn-59, .pkmn-590, .pkmn-591, .pkmn-592, .pkmn-593, .pkmn-594, .pkmn-595, .pkmn-596, .pkmn-597, .pkmn-598, .pkmn-599, .pkmn-6, .pkmn-60, .pkmn-600, .pkmn-601, .pkmn-602, .pkmn-603, .pkmn-604, .pkmn-605, .pkmn-606, .pkmn-607, .pkmn-608, .pkmn-609, .pkmn-61, .pkmn-610, .pkmn-611, .pkmn-612, .pkmn-613, .pkmn-614, .pkmn-615, .pkmn-616, .pkmn-617, .pkmn-618, .pkmn-619, .pkmn-62, .pkmn-620, .pkmn-621, .pkmn-622, .pkmn-623, .pkmn-624, .pkmn-625, .pkmn-626, .pkmn-627, .pkmn-628, .pkmn-629, .pkmn-63, .pkmn-630, .pkmn-631, .pkmn-632, .pkmn-633, .pkmn-634, .pkmn-635, .pkmn-636, .pkmn-637, .pkmn-638, .pkmn-639, .pkmn-64, .pkmn-640, .pkmn-641, .pkmn-642, .pkmn-643, .pkmn-644, .pkmn-645, .pkmn-646, .pkmn-647, .pkmn-648, .pkmn-649, .pkmn-65, .pkmn-650, .pkmn-651, .pkmn-652, .pkmn-653, .pkmn-654, .pkmn-655, .pkmn-656, .pkmn-657, .pkmn-658, .pkmn-659, .pkmn-66, .pkmn-660, .pkmn-661, .pkmn-662, .pkmn-663, .pkmn-664, .pkmn-665, .pkmn-666, .pkmn-667, .pkmn-668, .pkmn-669, .pkmn-67, .pkmn-670, .pkmn-671, .pkmn-672, .pkmn-673, .pkmn-674, .pkmn-675, .pkmn-676, .pkmn-677, .pkmn-678, .pkmn-679, .pkmn-68, .pkmn-680, .pkmn-681, .pkmn-682, .pkmn-683, .pkmn-684, .pkmn-685, .pkmn-686, .pkmn-687, .pkmn-688, .pkmn-689, .pkmn-69, .pkmn-690, .pkmn-691, .pkmn-692, .pkmn-693, .pkmn-694, .pkmn-695, .pkmn-696, .pkmn-697, .pkmn-698, .pkmn-699, .pkmn-7, .pkmn-70, .pkmn-700, .pkmn-701, .pkmn-702, .pkmn-703, .pkmn-704, .pkmn-705, .pkmn-706, .pkmn-707, .pkmn-708, .pkmn-709, .pkmn-71, .pkmn-710, .pkmn-711, .pkmn-712, .pkmn-713, .pkmn-714, .pkmn-715, .pkmn-716, .pkmn-717, .pkmn-718, .pkmn-72, .pkmn-73, .pkmn-74, .pkmn-75, .pkmn-76, .pkmn-77, .pkmn-78, .pkmn-79, .pkmn-8, .pkmn-80, .pkmn-81, .pkmn-82, .pkmn-83, .pkmn-84, .pkmn-85, .pkmn-86, .pkmn-87, .pkmn-88, .pkmn-89, .pkmn-9, .pkmn-90, .pkmn-91, .pkmn-92, .pkmn-93, .pkmn-94, .pkmn-95, .pkmn-96, .pkmn-97, .pkmn-98, .pkmn-99 {
+    background: url('./images/sprite.png') no-repeat;
+    min-width: 33px;
+    min-height: 33px;
+    display: inline-block;
+}.pkmn-1 {
+     background-position: 0 -12640px;
+ }
+.pkmn-10 {
+    background-position: 0 -18848px;
+}
+.pkmn-100 {
+    background-position: 0 -19360px;
+}
+.pkmn-101 {
+    background-position: 0 -19072px;
+}
+.pkmn-102 {
+    background-position: 0 -8640px;
+}
+.pkmn-103 {
+    background-position: 0 -5984px;
+}
+.pkmn-104 {
+    background-position: 0 -15104px;
+}
+.pkmn-105 {
+    background-position: 0 -11584px;
+}
+.pkmn-106 {
+    background-position: 0 -14016px;
+}
+.pkmn-107 {
+    background-position: 0 -14496px;
+}
+.pkmn-108 {
+    background-position: 0 -8960px;
+}
+.pkmn-109 {
+    background-position: 0 -21920px;
+}
+.pkmn-11 {
+    background-position: 0 -19232px;
+}
+.pkmn-110 {
+    background-position: 0 -32px;
+}
+.pkmn-111 {
+    background-position: 0 -7328px;
+}
+.pkmn-112 {
+    background-position: 0 -3264px;
+}
+.pkmn-113 {
+    background-position: 0 -10304px;
+}
+.pkmn-114 {
+    background-position: 0 -12160px;
+}
+.pkmn-115 {
+    background-position: 0 -7232px;
+}
+.pkmn-116 {
+    background-position: 0 -17632px;
+}
+.pkmn-117 {
+    background-position: 0 -7936px;
+}
+.pkmn-118 {
+    background-position: 0 -13728px;
+}
+.pkmn-119 {
+    background-position: 0 -8832px;
+}
+.pkmn-12 {
+    background-position: 0 -8768px;
+}
+.pkmn-120 {
+    background-position: 0 -16928px;
+}
+.pkmn-121 {
+    background-position: 0 -12416px;
+}
+.pkmn-122 {
+    background-position: 0 -14432px;
+}
+.pkmn-123 {
+    background-position: 0 -9728px;
+}
+.pkmn-124 {
+    background-position: 0 -7872px;
+}
+.pkmn-125 {
+    background-position: 0 -6304px;
+}
+.pkmn-126 {
+    background-position: 0 -5248px;
+}
+.pkmn-127 {
+    background-position: 0 -8896px;
+}
+.pkmn-128 {
+    background-position: 0 -7552px;
+}
+.pkmn-129 {
+    background-position: 0 -5600px;
+}
+.pkmn-13 {
+    background-position: 0 -18432px;
+}
+.pkmn-130 {
+    background-position: 0 -512px;
+}
+.pkmn-131 {
+    background-position: 0 -6752px;
+}
+.pkmn-132 {
+    background-position: 0 -18944px;
+}
+.pkmn-133 {
+    background-position: 0 -14336px;
+}
+.pkmn-134 {
+    background-position: 0 -6976px;
+}
+.pkmn-135 {
+    background-position: 0 -10112px;
+}
+.pkmn-136 {
+    background-position: 0 -7968px;
+}
+.pkmn-137 {
+    background-position: 0 -13600px;
+}
+.pkmn-138 {
+    background-position: 0 -13824px;
+}
+.pkmn-139 {
+    background-position: 0 -5312px;
+}
+.pkmn-14 {
+    background-position: 0 -18656px;
+}
+.pkmn-140 {
+    background-position: 0 -19040px;
+}
+.pkmn-141 {
+    background-position: 0 -12928px;
+}
+.pkmn-142 {
+    background-position: 0 -5696px;
+}
+.pkmn-143 {
+    background-position: 0 -2560px;
+}
+.pkmn-144 {
+    background-position: 0 -8032px;
+}
+.pkmn-145 {
+    background-position: 0 -4992px;
+}
+.pkmn-146 {
+    background-position: 0 -7584px;
+}
+.pkmn-147 {
+    background-position: 0 -15520px;
+}
+.pkmn-148 {
+    background-position: 0 -9056px;
+}
+.pkmn-149 {
+    background-position: 0 -3616px;
+}
+.pkmn-15 {
+    background-position: 0 -5760px;
+}
+.pkmn-150 {
+    background-position: 0 -6336px;
+}
+.pkmn-151 {
+    background-position: 0 -21376px;
+}
+.pkmn-152 {
+    background-position: 0 -21984px;
+}
+.pkmn-153 {
+    background-position: 0 -20800px;
+}
+.pkmn-154 {
+    background-position: 0 -20032px;
+}
+.pkmn-155 {
+    background-position: 0 -21888px;
+}
+.pkmn-156 {
+    background-position: 0 -20704px;
+}
+.pkmn-157 {
+    background-position: 0 -20672px;
+}
+.pkmn-158 {
+    background-position: 0 -21568px;
+}
+.pkmn-159 {
+    background-position: 0 -20992px;
+}
+.pkmn-16 {
+    background-position: 0 -15200px;
+}
+.pkmn-160 {
+    background-position: 0 -20192px;
+}
+.pkmn-161 {
+    background-position: 0 -13504px;
+}
+.pkmn-162 {
+    background-position: 0 -8448px;
+}
+.pkmn-163 {
+    background-position: 0 -17184px;
+}
+.pkmn-164 {
+    background-position: 0 -10016px;
+}
+.pkmn-165 {
+    background-position: 0 -16352px;
+}
+.pkmn-166 {
+    background-position: 0 -13088px;
+}
+.pkmn-167 {
+    background-position: 0 -17088px;
+}
+.pkmn-168 {
+    background-position: 0 -5920px;
+}
+.pkmn-169 {
+    background-position: 0 -8160px;
+}
+.pkmn-17 {
+    background-position: 0 -10432px;
+}
+.pkmn-170 {
+    background-position: 0 -15872px;
+}
+.pkmn-171 {
+    background-position: 0 -5632px;
+}
+.pkmn-172 {
+    background-position: 0 -17952px;
+}
+.pkmn-173 {
+    background-position: 0 -17408px;
+}
+.pkmn-174 {
+    background-position: 0 -18368px;
+}
+.pkmn-175 {
+    background-position: 0 -16736px;
+}
+.pkmn-176 {
+    background-position: 0 -18144px;
+}
+.pkmn-177 {
+    background-position: 0 -17312px;
+}
+.pkmn-178 {
+    background-position: 0 -13440px;
+}
+.pkmn-179 {
+    background-position: 0 -8256px;
+}
+.pkmn-18 {
+    background-position: 0 -1024px;
+}
+.pkmn-180 {
+    background-position: 0 -9376px;
+}
+.pkmn-181 {
+    background-position: 0 -10656px;
+}
+.pkmn-182 {
+    background-position: 0 -13408px;
+}
+.pkmn-183 {
+    background-position: 0 -13376px;
+}
+.pkmn-184 {
+    background-position: 0 -5824px;
+}
+.pkmn-185 {
+    background-position: 0 -11232px;
+}
+.pkmn-186 {
+    background-position: 0 -7264px;
+}
+.pkmn-187 {
+    background-position: 0 -11200px;
+}
+.pkmn-188 {
+    background-position: 0 -14816px;
+}
+.pkmn-189 {
+    background-position: 0 -10528px;
+}
+.pkmn-19 {
+    background-position: 0 -21600px;
+}
+.pkmn-190 {
+    background-position: 0 -8672px;
+}
+.pkmn-191 {
+    background-position: 0 -16416px;
+}
+.pkmn-192 {
+    background-position: 0 -6272px;
+}
+.pkmn-193 {
+    background-position: 0 -9856px;
+}
+.pkmn-194 {
+    background-position: 0 -16384px;
+}
+.pkmn-195 {
+    background-position: 0 -12096px;
+}
+.pkmn-196 {
+    background-position: 0 -11968px;
+}
+.pkmn-197 {
+    background-position: 0 -11808px;
+}
+.pkmn-198 {
+    background-position: 0 -14048px;
+}
+.pkmn-199 {
+    background-position: 0 -5056px;
+}
+.pkmn-2 {
+    background-position: 0 -9632px;
+}
+.pkmn-20 {
+    background-position: 0 -20736px;
+}
+.pkmn-200 {
+    background-position: 0 -20960px;
+}
+.pkmn-201 {
+    background-position: 0 -22400px;
+}
+.pkmn-202 {
+    background-position: 0 -11616px;
+}
+.pkmn-203 {
+    background-position: 0 -8416px;
+}
+.pkmn-204 {
+    background-position: 0 -13120px;
+}
+.pkmn-205 {
+    background-position: 0 -6688px;
+}
+.pkmn-206 {
+    background-position: 0 -14720px;
+}
+.pkmn-207 {
+    background-position: 0 -5568px;
+}
+.pkmn-208 {
+    background-position: 0 -608px;
+}
+.pkmn-209 {
+    background-position: 0 -8064px;
+}
+.pkmn-21 {
+    background-position: 0 -15808px;
+}
+.pkmn-210 {
+    background-position: 0 -4672px;
+}
+.pkmn-211 {
+    background-position: 0 -9088px;
+}
+.pkmn-212 {
+    background-position: 0 -2720px;
+}
+.pkmn-213 {
+    background-position: 0 -12128px;
+}
+.pkmn-214 {
+    background-position: 0 -9280px;
+}
+.pkmn-215 {
+    background-position: 0 -11840px;
+}
+.pkmn-216 {
+    background-position: 0 -13632px;
+}
+.pkmn-217 {
+    background-position: 0 -6432px;
+}
+.pkmn-218 {
+    background-position: 0 -12384px;
+}
+.pkmn-219 {
+    background-position: 0 -4960px;
+}
+.pkmn-22 {
+    background-position: 0 -1856px;
+}
+.pkmn-220 {
+    background-position: 0 -18400px;
+}
+.pkmn-221 {
+    background-position: 0 -10144px;
+}
+.pkmn-222 {
+    background-position: 0 -11904px;
+}
+.pkmn-223 {
+    background-position: 0 -19008px;
+}
+.pkmn-224 {
+    background-position: 0 -10816px;
+}
+.pkmn-225 {
+    background-position: 0 -12992px;
+}
+.pkmn-226 {
+    background-position: 0 -6464px;
+}
+.pkmn-227 {
+    background-position: 0 -4512px;
+}
+.pkmn-228 {
+    background-position: 0 -15360px;
+}
+.pkmn-229 {
+    background-position: 0 -12000px;
+}
+.pkmn-23 {
+    background-position: 0 -9888px;
+}
+.pkmn-230 {
+    background-position: 0 -10496px;
+}
+.pkmn-231 {
+    background-position: 0 -17248px;
+}
+.pkmn-232 {
+    background-position: 0 -2080px;
+}
+.pkmn-233 {
+    background-position: 0 -21408px;
+}
+.pkmn-234 {
+    background-position: 0 -21152px;
+}
+.pkmn-235 {
+    background-position: 0 -7360px;
+}
+.pkmn-236 {
+    background-position: 0 -15552px;
+}
+.pkmn-237 {
+    background-position: 0 -4128px;
+}
+.pkmn-238 {
+    background-position: 0 -15264px;
+}
+.pkmn-239 {
+    background-position: 0 -11520px;
+}
+.pkmn-24 {
+    background-position: 0 -6368px;
+}
+.pkmn-240 {
+    background-position: 0 -14624px;
+}
+.pkmn-241 {
+    background-position: 0 -6144px;
+}
+.pkmn-242 {
+    background-position: 0 -5536px;
+}
+.pkmn-243 {
+    background-position: 0 -736px;
+}
+.pkmn-244 {
+    background-position: 0 -20064px;
+}
+.pkmn-245 {
+    background-position: 0 -800px;
+}
+.pkmn-246 {
+    background-position: 0 -16480px;
+}
+.pkmn-247 {
+    background-position: 0 -14368px;
+}
+.pkmn-248 {
+    background-position: 0 -3392px;
+}
+.pkmn-249 {
+    background-position: 0 -20288px;
+}
+.pkmn-25 {
+    background-position: 0 -12800px;
+}
+.pkmn-250 {
+    background-position: 0 -19904px;
+}
+.pkmn-251 {
+    background-position: 0 -22080px;
+}
+.pkmn-252 {
+    background-position: 0 -21632px;
+}
+.pkmn-253 {
+    background-position: 0 -20768px;
+}
+.pkmn-254 {
+    background-position: 0 -20512px;
+}
+.pkmn-255 {
+    background-position: 0 -18272px;
+}
+.pkmn-256 {
+    background-position: 0 -6720px;
+}
+.pkmn-257 {
+    background-position: 0 -2208px;
+}
+.pkmn-258 {
+    background-position: 0 -21664px;
+}
+.pkmn-259 {
+    background-position: 0 -21216px;
+}
+.pkmn-26 {
+    background-position: 0 -5504px;
+}
+.pkmn-260 {
+    background-position: 0 -19680px;
+}
+.pkmn-261 {
+    background-position: 0 -13888px;
+}
+.pkmn-262 {
+    background-position: 0 -7904px;
+}
+.pkmn-263 {
+    background-position: 0 -14080px;
+}
+.pkmn-264 {
+    background-position: 0 -9664px;
+}
+.pkmn-265 {
+    background-position: 0 -16448px;
+}
+.pkmn-266 {
+    background-position: 0 -15584px;
+}
+.pkmn-267 {
+    background-position: 0 -5792px;
+}
+.pkmn-268 {
+    background-position: 0 -12576px;
+}
+.pkmn-269 {
+    background-position: 0 -3968px;
+}
+.pkmn-27 {
+    background-position: 0 -12672px;
+}
+.pkmn-270 {
+    background-position: 0 -16992px;
+}
+.pkmn-271 {
+    background-position: 0 -7712px;
+}
+.pkmn-272 {
+    background-position: 0 -1280px;
+}
+.pkmn-273 {
+    background-position: 0 -16768px;
+}
+.pkmn-274 {
+    background-position: 0 -12288px;
+}
+.pkmn-275 {
+    background-position: 0 -2016px;
+}
+.pkmn-276 {
+    background-position: 0 -18208px;
+}
+.pkmn-277 {
+    background-position: 0 -9152px;
+}
+.pkmn-278 {
+    background-position: 0 -18624px;
+}
+.pkmn-279 {
+    background-position: 0 -8480px;
+}
+.pkmn-28 {
+    background-position: 0 -4064px;
+}
+.pkmn-280 {
+    background-position: 0 -18784px;
+}
+.pkmn-281 {
+    background-position: 0 -8224px;
+}
+.pkmn-282 {
+    background-position: 0 -5152px;
+}
+.pkmn-283 {
+    background-position: 0 -17600px;
+}
+.pkmn-284 {
+    background-position: 0 -6624px;
+}
+.pkmn-285 {
+    background-position: 0 -17568px;
+}
+.pkmn-286 {
+    background-position: 0 -2624px;
+}
+.pkmn-287 {
+    background-position: 0 -22016px;
+}
+.pkmn-288 {
+    background-position: 0 -21120px;
+}
+.pkmn-289 {
+    background-position: 0 -19744px;
+}
+.pkmn-29 {
+    background-position: 0 -13024px;
+}
+.pkmn-290 {
+    background-position: 0 -15680px;
+}
+.pkmn-291 {
+    background-position: 0 -12896px;
+}
+.pkmn-292 {
+    background-position: 0 -11392px;
+}
+.pkmn-293 {
+    background-position: 0 -16800px;
+}
+.pkmn-294 {
+    background-position: 0 -3744px;
+}
+.pkmn-295 {
+    background-position: 0 -448px;
+}
+.pkmn-296 {
+    background-position: 0 -15744px;
+}
+.pkmn-297 {
+    background-position: 0 -3104px;
+}
+.pkmn-298 {
+    background-position: 0 -16640px;
+}
+.pkmn-299 {
+    background-position: 0 -14848px;
+}
+.pkmn-3 {
+    background-position: 0 -704px;
+}
+.pkmn-30 {
+    background-position: 0 -8000px;
+}
+.pkmn-300 {
+    background-position: 0 -11744px;
+}
+.pkmn-301 {
+    background-position: 0 -7520px;
+}
+.pkmn-302 {
+    background-position: 0 -10464px;
+}
+.pkmn-303 {
+    background-position: 0 -7648px;
+}
+.pkmn-304 {
+    background-position: 0 -19200px;
+}
+.pkmn-305 {
+    background-position: 0 -10784px;
+}
+.pkmn-306 {
+    background-position: 0 -3840px;
+}
+.pkmn-307 {
+    background-position: 0 -13920px;
+}
+.pkmn-308 {
+    background-position: 0 -12320px;
+}
+.pkmn-309 {
+    background-position: 0 -16160px;
+}
+.pkmn-31 {
+    background-position: 0 -4832px;
+}
+.pkmn-310 {
+    background-position: 0 -7616px;
+}
+.pkmn-311 {
+    background-position: 0 -16864px;
+}
+.pkmn-312 {
+    background-position: 0 -16672px;
+}
+.pkmn-313 {
+    background-position: 0 -11648px;
+}
+.pkmn-314 {
+    background-position: 0 -13248px;
+}
+.pkmn-315 {
+    background-position: 0 -5344px;
+}
+.pkmn-316 {
+    background-position: 0 -17664px;
+}
+.pkmn-317 {
+    background-position: 0 -14112px;
+}
+.pkmn-318 {
+    background-position: 0 -12480px;
+}
+.pkmn-319 {
+    background-position: 0 -12832px;
+}
+.pkmn-32 {
+    background-position: 0 -14144px;
+}
+.pkmn-320 {
+    background-position: 0 -10368px;
+}
+.pkmn-321 {
+    background-position: 0 -3936px;
+}
+.pkmn-322 {
+    background-position: 0 -11712px;
+}
+.pkmn-323 {
+    background-position: 0 -1504px;
+}
+.pkmn-324 {
+    background-position: 0 -9600px;
+}
+.pkmn-325 {
+    background-position: 0 -17792px;
+}
+.pkmn-326 {
+    background-position: 0 -12352px;
+}
+.pkmn-327 {
+    background-position: 0 -11776px;
+}
+.pkmn-328 {
+    background-position: 0 -13344px;
+}
+.pkmn-329 {
+    background-position: 0 -12064px;
+}
+.pkmn-33 {
+    background-position: 0 -8544px;
+}
+.pkmn-330 {
+    background-position: 0 -2400px;
+}
+.pkmn-331 {
+    background-position: 0 -15392px;
+}
+.pkmn-332 {
+    background-position: 0 -11552px;
+}
+.pkmn-333 {
+    background-position: 0 -18336px;
+}
+.pkmn-334 {
+    background-position: 0 -7776px;
+}
+.pkmn-335 {
+    background-position: 0 -11168px;
+}
+.pkmn-336 {
+    background-position: 0 -9760px;
+}
+.pkmn-337 {
+    background-position: 0 -16224px;
+}
+.pkmn-338 {
+    background-position: 0 -10176px;
+}
+.pkmn-339 {
+    background-position: 0 -18240px;
+}
+.pkmn-34 {
+    background-position: 0 -256px;
+}
+.pkmn-340 {
+    background-position: 0 -5856px;
+}
+.pkmn-341 {
+    background-position: 0 -10848px;
+}
+.pkmn-342 {
+    background-position: 0 -4352px;
+}
+.pkmn-343 {
+    background-position: 0 -21792px;
+}
+.pkmn-344 {
+    background-position: 0 -20864px;
+}
+.pkmn-345 {
+    background-position: 0 -12032px;
+}
+.pkmn-346 {
+    background-position: 0 -1600px;
+}
+.pkmn-347 {
+    background-position: 0 -6816px;
+}
+.pkmn-348 {
+    background-position: 0 -3456px;
+}
+.pkmn-349 {
+    background-position: 0 -21440px;
+}
+.pkmn-35 {
+    background-position: 0 -12960px;
+}
+.pkmn-350 {
+    background-position: 0 -1056px;
+}
+.pkmn-351 {
+    background-position: 0 -22432px;
+}
+.pkmn-352 {
+    background-position: 0 -11424px;
+}
+.pkmn-353 {
+    background-position: 0 -15968px;
+}
+.pkmn-354 {
+    background-position: 0 -11296px;
+}
+.pkmn-355 {
+    background-position: 0 -14464px;
+}
+.pkmn-356 {
+    background-position: 0 -7008px;
+}
+.pkmn-357 {
+    background-position: 0 -1344px;
+}
+.pkmn-358 {
+    background-position: 0 -17728px;
+}
+.pkmn-359 {
+    background-position: 0 -8096px;
+}
+.pkmn-36 {
+    background-position: 0 -6656px;
+}
+.pkmn-360 {
+    background-position: 0 -9344px;
+}
+.pkmn-361 {
+    background-position: 0 -17440px;
+}
+.pkmn-362 {
+    background-position: 0 -14752px;
+}
+.pkmn-363 {
+    background-position: 0 -14880px;
+}
+.pkmn-364 {
+    background-position: 0 -8352px;
+}
+.pkmn-365 {
+    background-position: 0 -1440px;
+}
+.pkmn-366 {
+    background-position: 0 -9184px;
+}
+.pkmn-367 {
+    background-position: 0 -2816px;
+}
+.pkmn-368 {
+    background-position: 0 -10976px;
+}
+.pkmn-369 {
+    background-position: 0 -3648px;
+}
+.pkmn-37 {
+    background-position: 0 -9024px;
+}
+.pkmn-370 {
+    background-position: 0 -19168px;
+}
+.pkmn-371 {
+    background-position: 0 -15424px;
+}
+.pkmn-372 {
+    background-position: 0 -12512px;
+}
+.pkmn-373 {
+    background-position: 0 -480px;
+}
+.pkmn-374 {
+    background-position: 0 -15136px;
+}
+.pkmn-375 {
+    background-position: 0 -3200px;
+}
+.pkmn-376 {
+    background-position: 0 0;
+}
+.pkmn-377 {
+    background-position: 0 -20928px;
+}
+.pkmn-378 {
+    background-position: 0 -21472px;
+}
+.pkmn-379 {
+    background-position: 0 -20896px;
+}
+.pkmn-38 {
+    background-position: 0 -2144px;
+}
+.pkmn-380 {
+    background-position: 0 -20352px;
+}
+.pkmn-381 {
+    background-position: 0 -20416px;
+}
+.pkmn-382 {
+    background-position: 0 -20128px;
+}
+.pkmn-383 {
+    background-position: 0 -20224px;
+}
+.pkmn-384 {
+    background-position: 0 -19968px;
+}
+.pkmn-385 {
+    background-position: 0 -21248px;
+}
+.pkmn-386 {
+    background-position: 0 -20160px;
+}
+.pkmn-387 {
+    background-position: 0 -21024px;
+}
+.pkmn-388 {
+    background-position: 0 -20448px;
+}
+.pkmn-389 {
+    background-position: 0 -19776px;
+}
+.pkmn-39 {
+    background-position: 0 -12608px;
+}
+.pkmn-390 {
+    background-position: 0 -21696px;
+}
+.pkmn-391 {
+    background-position: 0 -20576px;
+}
+.pkmn-392 {
+    background-position: 0 -19552px;
+}
+.pkmn-393 {
+    background-position: 0 -22112px;
+}
+.pkmn-394 {
+    background-position: 0 -21184px;
+}
+.pkmn-395 {
+    background-position: 0 -20640px;
+}
+.pkmn-396 {
+    background-position: 0 -15616px;
+}
+.pkmn-397 {
+    background-position: 0 -11680px;
+}
+.pkmn-398 {
+    background-position: 0 -4192px;
+}
+.pkmn-399 {
+    background-position: 0 -14240px;
+}
+.pkmn-4 {
+    background-position: 0 -14688px;
+}
+.pkmn-40 {
+    background-position: 0 -6560px;
+}
+.pkmn-400 {
+    background-position: 0 -5088px;
+}
+.pkmn-401 {
+    background-position: 0 -21056px;
+}
+.pkmn-402 {
+    background-position: 0 -20320px;
+}
+.pkmn-403 {
+    background-position: 0 -8800px;
+}
+.pkmn-404 {
+    background-position: 0 -4704px;
+}
+.pkmn-405 {
+    background-position: 0 -2592px;
+}
+.pkmn-406 {
+    background-position: 0 -18496px;
+}
+.pkmn-407 {
+    background-position: 0 -10208px;
+}
+.pkmn-408 {
+    background-position: 0 -10912px;
+}
+.pkmn-409 {
+    background-position: 0 -5472px;
+}
+.pkmn-41 {
+    background-position: 0 -14976px;
+}
+.pkmn-410 {
+    background-position: 0 -13472px;
+}
+.pkmn-411 {
+    background-position: 0 -4224px;
+}
+.pkmn-412 {
+    background-position: 0 -14560px;
+}
+.pkmn-413 {
+    background-position: 0 -9216px;
+}
+.pkmn-414 {
+    background-position: 0 -6880px;
+}
+.pkmn-415 {
+    background-position: 0 -12736px;
+}
+.pkmn-416 {
+    background-position: 0 -3776px;
+}
+.pkmn-417 {
+    background-position: 0 -11104px;
+}
+.pkmn-418 {
+    background-position: 0 -12256px;
+}
+.pkmn-419 {
+    background-position: 0 -6080px;
+}
+.pkmn-42 {
+    background-position: 0 -8992px;
+}
+.pkmn-420 {
+    background-position: 0 -21344px;
+}
+.pkmn-421 {
+    background-position: 0 -15456px;
+}
+.pkmn-422 {
+    background-position: 0 -13536px;
+}
+.pkmn-423 {
+    background-position: 0 -6848px;
+}
+.pkmn-424 {
+    background-position: 0 -19872px;
+}
+.pkmn-425 {
+    background-position: 0 -18016px;
+}
+.pkmn-426 {
+    background-position: 0 -5664px;
+}
+.pkmn-427 {
+    background-position: 0 -12704px;
+}
+.pkmn-428 {
+    background-position: 0 -20608px;
+}
+.pkmn-429 {
+    background-position: 0 -20384px;
+}
+.pkmn-43 {
+    background-position: 0 -16256px;
+}
+.pkmn-430 {
+    background-position: 0 -4576px;
+}
+.pkmn-431 {
+    background-position: 0 -20544px;
+}
+.pkmn-432 {
+    background-position: 0 -20256px;
+}
+.pkmn-433 {
+    background-position: 0 -14592px;
+}
+.pkmn-434 {
+    background-position: 0 -7680px;
+}
+.pkmn-435 {
+    background-position: 0 -1920px;
+}
+.pkmn-436 {
+    background-position: 0 -18752px;
+}
+.pkmn-437 {
+    background-position: 0 -6208px;
+}
+.pkmn-438 {
+    background-position: 0 -17760px;
+}
+.pkmn-439 {
+    background-position: 0 -16096px;
+}
+.pkmn-44 {
+    background-position: 0 -10400px;
+}
+.pkmn-440 {
+    background-position: 0 -17472px;
+}
+.pkmn-441 {
+    background-position: 0 -13856px;
+}
+.pkmn-442 {
+    background-position: 0 -6496px;
+}
+.pkmn-443 {
+    background-position: 0 -13056px;
+}
+.pkmn-444 {
+    background-position: 0 -5184px;
+}
+.pkmn-445 {
+    background-position: 0 -2272px;
+}
+.pkmn-446 {
+    background-position: 0 -16832px;
+}
+.pkmn-447 {
+    background-position: 0 -16704px;
+}
+.pkmn-448 {
+    background-position: 0 -15488px;
+}
+.pkmn-449 {
+    background-position: 0 -8928px;
+}
+.pkmn-45 {
+    background-position: 0 -6240px;
+}
+.pkmn-450 {
+    background-position: 0 -4384px;
+}
+.pkmn-451 {
+    background-position: 0 -8736px;
+}
+.pkmn-452 {
+    background-position: 0 -1376px;
+}
+.pkmn-453 {
+    background-position: 0 -16544px;
+}
+.pkmn-454 {
+    background-position: 0 -7424px;
+}
+.pkmn-455 {
+    background-position: 0 -4864px;
+}
+.pkmn-456 {
+    background-position: 0 -21728px;
+}
+.pkmn-457 {
+    background-position: 0 -20480px;
+}
+.pkmn-458 {
+    background-position: 0 -17024px;
+}
+.pkmn-459 {
+    background-position: 0 -15648px;
+}
+.pkmn-46 {
+    background-position: 0 -10048px;
+}
+.pkmn-460 {
+    background-position: 0 -11328px;
+}
+.pkmn-461 {
+    background-position: 0 -7744px;
+}
+.pkmn-462 {
+    background-position: 0 -3296px;
+}
+.pkmn-463 {
+    background-position: 0 -7040px;
+}
+.pkmn-464 {
+    background-position: 0 -1408px;
+}
+.pkmn-465 {
+    background-position: 0 -2976px;
+}
+.pkmn-466 {
+    background-position: 0 -1952px;
+}
+.pkmn-467 {
+    background-position: 0 -2848px;
+}
+.pkmn-468 {
+    background-position: 0 -6528px;
+}
+.pkmn-469 {
+    background-position: 0 -4256px;
+}
+.pkmn-47 {
+    background-position: 0 -7104px;
+}
+.pkmn-470 {
+    background-position: 0 -5376px;
+}
+.pkmn-471 {
+    background-position: 0 -4608px;
+}
+.pkmn-472 {
+    background-position: 0 -416px;
+}
+.pkmn-473 {
+    background-position: 0 -2304px;
+}
+.pkmn-474 {
+    background-position: 0 -21280px;
+}
+.pkmn-475 {
+    background-position: 0 -6912px;
+}
+.pkmn-476 {
+    background-position: 0 -4416px;
+}
+.pkmn-477 {
+    background-position: 0 -3872px;
+}
+.pkmn-478 {
+    background-position: 0 -13760px;
+}
+.pkmn-479 {
+    background-position: 0 -10880px;
+}
+.pkmn-48 {
+    background-position: 0 -8384px;
+}
+.pkmn-480 {
+    background-position: 0 -20000px;
+}
+.pkmn-481 {
+    background-position: 0 -19840px;
+}
+.pkmn-482 {
+    background-position: 0 -20096px;
+}
+.pkmn-483 {
+    background-position: 0 -19584px;
+}
+.pkmn-484 {
+    background-position: 0 -19648px;
+}
+.pkmn-485 {
+    background-position: 0 -19936px;
+}
+.pkmn-486 {
+    background-position: 0 -19488px;
+}
+.pkmn-487 {
+    background-position: 0 -19616px;
+}
+.pkmn-488 {
+    background-position: 0 -19808px;
+}
+.pkmn-489 {
+    background-position: 0 -21760px;
+}
+.pkmn-49 {
+    background-position: 0 -3328px;
+}
+.pkmn-490 {
+    background-position: 0 -21088px;
+}
+.pkmn-491 {
+    background-position: 0 -19712px;
+}
+.pkmn-492 {
+    background-position: 0 -21856px;
+}
+.pkmn-493 {
+    background-position: 0 -19520px;
+}
+.pkmn-494 {
+    background-position: 0 -22560px;
+}
+.pkmn-495 {
+    background-position: 0 -22656px;
+}
+.pkmn-496 {
+    background-position: 0 -22528px;
+}
+.pkmn-497 {
+    background-position: 0 -22176px;
+}
+.pkmn-498 {
+    background-position: 0 -22848px;
+}
+.pkmn-499 {
+    background-position: 0 -22592px;
+}
+.pkmn-5 {
+    background-position: 0 -8704px;
+}
+.pkmn-50 {
+    background-position: 0 -19104px;
+}
+.pkmn-500 {
+    background-position: 0 -22048px;
+}
+.pkmn-501 {
+    background-position: 0 -22688px;
+}
+.pkmn-502 {
+    background-position: 0 -22336px;
+}
+.pkmn-503 {
+    background-position: 0 -21504px;
+}
+.pkmn-504 {
+    background-position: 0 -13664px;
+}
+.pkmn-505 {
+    background-position: 0 -9120px;
+}
+.pkmn-506 {
+    background-position: 0 -16064px;
+}
+.pkmn-507 {
+    background-position: 0 -8864px;
+}
+.pkmn-508 {
+    background-position: 0 -1696px;
+}
+.pkmn-509 {
+    background-position: 0 -12448px;
+}
+.pkmn-51 {
+    background-position: 0 -8576px;
+}
+.pkmn-510 {
+    background-position: 0 -3680px;
+}
+.pkmn-511 {
+    background-position: 0 -10944px;
+}
+.pkmn-512 {
+    background-position: 0 -5952px;
+}
+.pkmn-513 {
+    background-position: 0 -14656px;
+}
+.pkmn-514 {
+    background-position: 0 -5024px;
+}
+.pkmn-515 {
+    background-position: 0 -9536px;
+}
+.pkmn-516 {
+    background-position: 0 -4768px;
+}
+.pkmn-517 {
+    background-position: 0 -18816px;
+}
+.pkmn-518 {
+    background-position: 0 -4800px;
+}
+.pkmn-519 {
+    background-position: 0 -18464px;
+}
+.pkmn-52 {
+    background-position: 0 -21824px;
+}
+.pkmn-520 {
+    background-position: 0 -15008px;
+}
+.pkmn-521 {
+    background-position: 0 -7072px;
+}
+.pkmn-522 {
+    background-position: 0 -16512px;
+}
+.pkmn-523 {
+    background-position: 0 -7136px;
+}
+.pkmn-524 {
+    background-position: 0 -19264px;
+}
+.pkmn-525 {
+    background-position: 0 -8288px;
+}
+.pkmn-526 {
+    background-position: 0 -1792px;
+}
+.pkmn-527 {
+    background-position: 0 -17504px;
+}
+.pkmn-528 {
+    background-position: 0 -10560px;
+}
+.pkmn-529 {
+    background-position: 0 -15168px;
+}
+.pkmn-53 {
+    background-position: 0 -20832px;
+}
+.pkmn-530 {
+    background-position: 0 -2944px;
+}
+.pkmn-531 {
+    background-position: 0 -7200px;
+}
+.pkmn-532 {
+    background-position: 0 -12224px;
+}
+.pkmn-533 {
+    background-position: 0 -3136px;
+}
+.pkmn-534 {
+    background-position: 0 -352px;
+}
+.pkmn-535 {
+    background-position: 0 -19392px;
+}
+.pkmn-536 {
+    background-position: 0 -14208px;
+}
+.pkmn-537 {
+    background-position: 0 -2464px;
+}
+.pkmn-538 {
+    background-position: 0 -4736px;
+}
+.pkmn-539 {
+    background-position: 0 -5280px;
+}
+.pkmn-54 {
+    background-position: 0 -10592px;
+}
+.pkmn-540 {
+    background-position: 0 -17824px;
+}
+.pkmn-541 {
+    background-position: 0 -17344px;
+}
+.pkmn-542 {
+    background-position: 0 -16960px;
+}
+.pkmn-543 {
+    background-position: 0 -17536px;
+}
+.pkmn-544 {
+    background-position: 0 -11136px;
+}
+.pkmn-545 {
+    background-position: 0 -3168px;
+}
+.pkmn-546 {
+    background-position: 0 -22784px;
+}
+.pkmn-547 {
+    background-position: 0 -4448px;
+}
+.pkmn-548 {
+    background-position: 0 -18112px;
+}
+.pkmn-549 {
+    background-position: 0 -8320px;
+}
+.pkmn-55 {
+    background-position: 0 -6112px;
+}
+.pkmn-550 {
+    background-position: 0 -16192px;
+}
+.pkmn-551 {
+    background-position: 0 -15040px;
+}
+.pkmn-552 {
+    background-position: 0 -8512px;
+}
+.pkmn-553 {
+    background-position: 0 -2368px;
+}
+.pkmn-554 {
+    background-position: 0 -22880px;
+}
+.pkmn-555 {
+    background-position: 0 -22464px;
+}
+.pkmn-556 {
+    background-position: 0 -4928px;
+}
+.pkmn-557 {
+    background-position: 0 -15296px;
+}
+.pkmn-558 {
+    background-position: 0 -928px;
+}
+.pkmn-559 {
+    background-position: 0 -18976px;
+}
+.pkmn-56 {
+    background-position: 0 -9248px;
+}
+.pkmn-560 {
+    background-position: 0 -10688px;
+}
+.pkmn-561 {
+    background-position: 0 -6784px;
+}
+.pkmn-562 {
+    background-position: 0 -22912px;
+}
+.pkmn-563 {
+    background-position: 0 -832px;
+}
+.pkmn-564 {
+    background-position: 0 -14912px;
+}
+.pkmn-565 {
+    background-position: 0 -2752px;
+}
+.pkmn-566 {
+    background-position: 0 -15328px;
+}
+.pkmn-567 {
+    background-position: 0 -3808px;
+}
+.pkmn-568 {
+    background-position: 0 -16000px;
+}
+.pkmn-569 {
+    background-position: 0 -1824px;
+}
+.pkmn-57 {
+    background-position: 0 -3904px;
+}
+.pkmn-570 {
+    background-position: 0 -17056px;
+}
+.pkmn-571 {
+    background-position: 0 -3520px;
+}
+.pkmn-572 {
+    background-position: 0 -13216px;
+}
+.pkmn-573 {
+    background-position: 0 -6176px;
+}
+.pkmn-574 {
+    background-position: 0 -18688px;
+}
+.pkmn-575 {
+    background-position: 0 -13792px;
+}
+.pkmn-576 {
+    background-position: 0 -10080px;
+}
+.pkmn-577 {
+    background-position: 0 -18592px;
+}
+.pkmn-578 {
+    background-position: 0 -13152px;
+}
+.pkmn-579 {
+    background-position: 0 -2432px;
+}
+.pkmn-58 {
+    background-position: 0 -6944px;
+}
+.pkmn-580 {
+    background-position: 0 -16288px;
+}
+.pkmn-581 {
+    background-position: 0 -10624px;
+}
+.pkmn-582 {
+    background-position: 0 -19456px;
+}
+.pkmn-583 {
+    background-position: 0 -17696px;
+}
+.pkmn-584 {
+    background-position: 0 -8128px;
+}
+.pkmn-585 {
+    background-position: 0 -11456px;
+}
+.pkmn-586 {
+    background-position: 0 -5728px;
+}
+.pkmn-587 {
+    background-position: 0 -13280px;
+}
+.pkmn-588 {
+    background-position: 0 -19296px;
+}
+.pkmn-589 {
+    background-position: 0 -4096px;
+}
+.pkmn-59 {
+    background-position: 0 -288px;
+}
+.pkmn-590 {
+    background-position: 0 -18720px;
+}
+.pkmn-591 {
+    background-position: 0 -5408px;
+}
+.pkmn-592 {
+    background-position: 0 -22720px;
+}
+.pkmn-593 {
+    background-position: 0 -6016px;
+}
+.pkmn-594 {
+    background-position: 0 -15936px;
+}
+.pkmn-595 {
+    background-position: 0 -16128px;
+}
+.pkmn-596 {
+    background-position: 0 -1664px;
+}
+.pkmn-597 {
+    background-position: 0 -17888px;
+}
+.pkmn-598 {
+    background-position: 0 -2496px;
+}
+.pkmn-599 {
+    background-position: 0 -15232px;
+}
+.pkmn-6 {
+    background-position: 0 -544px;
+}
+.pkmn-60 {
+    background-position: 0 -15776px;
+}
+.pkmn-600 {
+    background-position: 0 -4288px;
+}
+.pkmn-601 {
+    background-position: 0 -64px;
+}
+.pkmn-602 {
+    background-position: 0 -22944px;
+}
+.pkmn-603 {
+    background-position: 0 -13568px;
+}
+.pkmn-604 {
+    background-position: 0 -1120px;
+}
+.pkmn-605 {
+    background-position: 0 -17984px;
+}
+.pkmn-606 {
+    background-position: 0 -22816px;
+}
+.pkmn-607 {
+    background-position: 0 -19424px;
+}
+.pkmn-608 {
+    background-position: 0 -17856px;
+}
+.pkmn-609 {
+    background-position: 0 -8608px;
+}
+.pkmn-61 {
+    background-position: 0 -10240px;
+}
+.pkmn-610 {
+    background-position: 0 -17216px;
+}
+.pkmn-611 {
+    background-position: 0 -11040px;
+}
+.pkmn-612 {
+    background-position: 0 -4000px;
+}
+.pkmn-613 {
+    background-position: 0 -17120px;
+}
+.pkmn-614 {
+    background-position: 0 -13952px;
+}
+.pkmn-615 {
+    background-position: 0 -9952px;
+}
+.pkmn-616 {
+    background-position: 0 -18560px;
+}
+.pkmn-617 {
+    background-position: 0 -7808px;
+}
+.pkmn-618 {
+    background-position: 0 -17152px;
+}
+.pkmn-619 {
+    background-position: 0 -14944px;
+}
+.pkmn-62 {
+    background-position: 0 -3232px;
+}
+.pkmn-620 {
+    background-position: 0 -13184px;
+}
+.pkmn-621 {
+    background-position: 0 -2656px;
+}
+.pkmn-622 {
+    background-position: 0 -14784px;
+}
+.pkmn-623 {
+    background-position: 0 -896px;
+}
+.pkmn-624 {
+    background-position: 0 -15712px;
+}
+.pkmn-625 {
+    background-position: 0 -7168px;
+}
+.pkmn-626 {
+    background-position: 0 -5120px;
+}
+.pkmn-627 {
+    background-position: 0 -9984px;
+}
+.pkmn-628 {
+    background-position: 0 -4640px;
+}
+.pkmn-629 {
+    background-position: 0 -14304px;
+}
+.pkmn-63 {
+    background-position: 0 -9568px;
+}
+.pkmn-630 {
+    background-position: 0 -9312px;
+}
+.pkmn-631 {
+    background-position: 0 -2880px;
+}
+.pkmn-632 {
+    background-position: 0 -15840px;
+}
+.pkmn-633 {
+    background-position: 0 -16576px;
+}
+.pkmn-634 {
+    background-position: 0 -3552px;
+}
+.pkmn-635 {
+    background-position: 0 -160px;
+}
+.pkmn-636 {
+    background-position: 0 -14400px;
+}
+.pkmn-637 {
+    background-position: 0 -1984px;
+}
+.pkmn-638 {
+    background-position: 0 -22272px;
+}
+.pkmn-639 {
+    background-position: 0 -22304px;
+}
+.pkmn-64 {
+    background-position: 0 -960px;
+}
+.pkmn-640 {
+    background-position: 0 -22368px;
+}
+.pkmn-641 {
+    background-position: 0 -21312px;
+}
+.pkmn-642 {
+    background-position: 0 -21952px;
+}
+.pkmn-643 {
+    background-position: 0 -22240px;
+}
+.pkmn-644 {
+    background-position: 0 -22496px;
+}
+.pkmn-645 {
+    background-position: 0 -21536px;
+}
+.pkmn-646 {
+    background-position: 0 -22208px;
+}
+.pkmn-647 {
+    background-position: 0 -22144px;
+}
+.pkmn-648 {
+    background-position: 0 -22752px;
+}
+.pkmn-649 {
+    background-position: 0 -22624px;
+}
+.pkmn-65 {
+    background-position: 0 -192px;
+}
+.pkmn-650 {
+    background-position: 0 -9792px;
+}
+.pkmn-651 {
+    background-position: 0 -6592px;
+}
+.pkmn-652 {
+    background-position: 0 -672px;
+}
+.pkmn-653 {
+    background-position: 0 -18048px;
+}
+.pkmn-654 {
+    background-position: 0 -7456px;
+}
+.pkmn-655 {
+    background-position: 0 -2048px;
+}
+.pkmn-656 {
+    background-position: 0 -11488px;
+}
+.pkmn-657 {
+    background-position: 0 -5888px;
+}
+.pkmn-658 {
+    background-position: 0 -3072px;
+}
+.pkmn-659 {
+    background-position: 0 -12192px;
+}
+.pkmn-66 {
+    background-position: 0 -16320px;
+}
+.pkmn-660 {
+    background-position: 0 -1568px;
+}
+.pkmn-661 {
+    background-position: 0 -18304px;
+}
+.pkmn-662 {
+    background-position: 0 -11264px;
+}
+.pkmn-663 {
+    background-position: 0 -2688px;
+}
+.pkmn-664 {
+    background-position: 0 -18176px;
+}
+.pkmn-665 {
+    background-position: 0 -17280px;
+}
+.pkmn-666 {
+    background-position: 0 -2784px;
+}
+.pkmn-667 {
+    background-position: 0 -11360px;
+}
+.pkmn-668 {
+    background-position: 0 -128px;
+}
+.pkmn-669 {
+    background-position: 0 -17920px;
+}
+.pkmn-67 {
+    background-position: 0 -3488px;
+}
+.pkmn-670 {
+    background-position: 0 -10720px;
+}
+.pkmn-671 {
+    background-position: 0 -224px;
+}
+.pkmn-672 {
+    background-position: 0 -13984px;
+}
+.pkmn-673 {
+    background-position: 0 -3424px;
+}
+.pkmn-674 {
+    background-position: 0 -15904px;
+}
+.pkmn-675 {
+    background-position: 0 -3360px;
+}
+.pkmn-676 {
+    background-position: 0 -1728px;
+}
+.pkmn-677 {
+    background-position: 0 -16896px;
+}
+.pkmn-678 {
+    background-position: 0 -19136px;
+}
+.pkmn-679 {
+    background-position: 0 -9920px;
+}
+.pkmn-68 {
+    background-position: 0 -1312px;
+}
+.pkmn-680 {
+    background-position: 0 -992px;
+}
+.pkmn-681 {
+    background-position: 0 -2912px;
+}
+.pkmn-682 {
+    background-position: 0 -18528px;
+}
+.pkmn-683 {
+    background-position: 0 -4320px;
+}
+.pkmn-684 {
+    background-position: 0 -17376px;
+}
+.pkmn-685 {
+    background-position: 0 -7392px;
+}
+.pkmn-686 {
+    background-position: 0 -10752px;
+}
+.pkmn-687 {
+    background-position: 0 -3040px;
+}
+.pkmn-688 {
+    background-position: 0 -6048px;
+}
+.pkmn-689 {
+    background-position: 0 -96px;
+}
+.pkmn-69 {
+    background-position: 0 -18880px;
+}
+.pkmn-690 {
+    background-position: 0 -11872px;
+}
+.pkmn-691 {
+    background-position: 0 -1536px;
+}
+.pkmn-692 {
+    background-position: 0 -12864px;
+}
+.pkmn-693 {
+    background-position: 0 -1088px;
+}
+.pkmn-694 {
+    background-position: 0 -16032px;
+}
+.pkmn-695 {
+    background-position: 0 -9696px;
+}
+.pkmn-696 {
+    background-position: 0 -13312px;
+}
+.pkmn-697 {
+    background-position: 0 -640px;
+}
+.pkmn-698 {
+    background-position: 0 -9504px;
+}
+.pkmn-699 {
+    background-position: 0 -1248px;
+}
+.pkmn-7 {
+    background-position: 0 -12768px;
+}
+.pkmn-70 {
+    background-position: 0 -11072px;
+}
+.pkmn-700 {
+    background-position: 0 -5440px;
+}
+.pkmn-701 {
+    background-position: 0 -9472px;
+}
+.pkmn-702 {
+    background-position: 0 -13696px;
+}
+.pkmn-703 {
+    background-position: 0 -18912px;
+}
+.pkmn-704 {
+    background-position: 0 -19328px;
+}
+.pkmn-705 {
+    background-position: 0 -15072px;
+}
+.pkmn-706 {
+    background-position: 0 -5216px;
+}
+.pkmn-707 {
+    background-position: 0 -7296px;
+}
+.pkmn-708 {
+    background-position: 0 -7488px;
+}
+.pkmn-709 {
+    background-position: 0 -1152px;
+}
+.pkmn-71 {
+    background-position: 0 -3584px;
+}
+.pkmn-710 {
+    background-position: 0 -16608px;
+}
+.pkmn-711 {
+    background-position: 0 -9408px;
+}
+.pkmn-712 {
+    background-position: 0 -14528px;
+}
+.pkmn-713 {
+    background-position: 0 -576px;
+}
+.pkmn-714 {
+    background-position: 0 -11936px;
+}
+.pkmn-715 {
+    background-position: 0 -4160px;
+}
+.pkmn-716 {
+    background-position: 0 -384px;
+}
+.pkmn-717 {
+    background-position: 0 -1760px;
+}
+.pkmn-718 {
+    background-position: 0 -320px;
+}
+.pkmn-72 {
+    background-position: 0 -9824px;
+}
+.pkmn-73 {
+    background-position: 0 -1888px;
+}
+.pkmn-74 {
+    background-position: 0 -14272px;
+}
+.pkmn-75 {
+    background-position: 0 -2336px;
+}
+.pkmn-76 {
+    background-position: 0 -3712px;
+}
+.pkmn-77 {
+    background-position: 0 -4032px;
+}
+.pkmn-78 {
+    background-position: 0 -768px;
+}
+.pkmn-79 {
+    background-position: 0 -10272px;
+}
+.pkmn-8 {
+    background-position: 0 -4480px;
+}
+.pkmn-80 {
+    background-position: 0 -864px;
+}
+.pkmn-81 {
+    background-position: 0 -18080px;
+}
+.pkmn-82 {
+    background-position: 0 -8192px;
+}
+.pkmn-83 {
+    background-position: 0 -6400px;
+}
+.pkmn-84 {
+    background-position: 0 -14176px;
+}
+.pkmn-85 {
+    background-position: 0 -1216px;
+}
+.pkmn-86 {
+    background-position: 0 -9440px;
+}
+.pkmn-87 {
+    background-position: 0 -12544px;
+}
+.pkmn-88 {
+    background-position: 0 -10336px;
+}
+.pkmn-89 {
+    background-position: 0 -1472px;
+}
+.pkmn-9 {
+    background-position: 0 -2112px;
+}
+.pkmn-90 {
+    background-position: 0 -11008px;
+}
+.pkmn-91 {
+    background-position: 0 -2528px;
+}
+.pkmn-92 {
+    background-position: 0 -7840px;
+}
+.pkmn-93 {
+    background-position: 0 -1184px;
+}
+.pkmn-94 {
+    background-position: 0 -3008px;
+}
+.pkmn-95 {
+    background-position: 0 -1632px;
+}
+.pkmn-96 {
+    background-position: 0 -4896px;
+}
+.pkmn-97 {
+    background-position: 0 -2176px;
+}
+.pkmn-98 {
+    background-position: 0 -4544px;
+}
+.pkmn-99 {
+    background-position: 0 -2240px;
+}

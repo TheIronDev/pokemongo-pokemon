@@ -9,7 +9,8 @@
     <meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no" />
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
     <link href='./styles.css' rel='stylesheet' type='text/css'>
-    <!--<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />-->
+    <link href='./sprites.css' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
 </head>
 <body>
 <main class="pokemonGoApp" ng-app="pokemonGoPokemon">
@@ -27,7 +28,7 @@
         <table class="pokemonGoApp-table">
             <thead class="pokemonGoApp-tableHead">
                 <tr class="orderByRow orderBy-{{pokemonOrder}} {{orderDescending ? 'isDescending' : ''}}">
-                    <td class="pokemonGoApp-tableHead-id" ng-click="changeOrder('id')"><span>id</span></td>
+                    <td class="pokemonGoApp-tableHead-id" ng-click="changeOrder('id')"><span>#</span></td>
                     <td class="pokemonGoApp-tableHead-name" ng-click="changeOrder('name')"><span>Name</span></td>
                     <td class="pokemonGoApp-tableHead-candy" ng-click="changeOrder('candy')"><span>Candy Required</span></td>
                     <td class="pokemonGoApp-tableHead-captureRate" ng-click="changeOrder('captureRate')"><span>Capture Rate</span></td>
@@ -40,7 +41,7 @@
             <tbody class="pokemonGoApp-tableBody">
                 <tr ng-repeat="pokemon in pokemonList | filter:pokemonNameFilter | orderBy:pokemonOrder:orderDescending"
                     class="pokemonGoApp-tableRow">
-                    <td>{{pokemon.id}}</td>
+                    <td><i class="pokemon-icon pkmn-{{pokemon.id}}">&nbsp;</i></td>
                     <td>{{pokemon.name}}</td>
                     <td>{{pokemon.candy}}</td>
                     <td>{{pokemon.captureRate}}</td>
