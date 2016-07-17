@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PokemonGo - Pokemon</title>
+    <meta name="keywords" content="Pokemon, PokemonGo" />
+    <meta charset="UTF-8" />
+    <meta name="author" content="Tyler Stark">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no" />
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+    <link href='./styles.css' rel='stylesheet' type='text/css'>
+    <!--<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />-->
+</head>
+<body>
+<main ng-app="pokemonGoPokemon">
+    <header>
+        <h1>PokemonGo - Pokemon Table</h1>
+    </header>
+    <section ng-controller="pokemonGoPokemonCtr">
+        {{dummyContent}}
+    </section>
+    <footer>
+        <a href="https://gist.github.com/ryankane/3b3d8c537bc898dae1e65b61d0d7efe9">Pokemon Data Source</a>
+    </footer>
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script src="./scripts/app.js"></script>
+</body>
+</html>
