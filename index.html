@@ -7,6 +7,7 @@
     <meta charset="UTF-8" />
     <meta name="author" content="Tyler Stark">
     <meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no" />
+    <meta property="og:image" content="./images/theIronPokeBall.png"/>
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
     <link href='./styles.css' rel='stylesheet' type='text/css'>
     <link href='./sprites.css' rel='stylesheet' type='text/css'>
@@ -17,15 +18,15 @@
     <header>
         <h1>PokemonGo - Pokemon Table</h1>
         <a href="https://www.reddit.com/r/pokemongo/comments/4t6egi/pokemon_go_decoded_game_master_protobuf_file_v01/">
-            Data abstracted from here
+            Data abstracted from this reddit post
         </a>
     </header>
     <section ng-controller="pokemonGoPokemonCtr" ng-cloak>
-        <div class="spinner"></div>
+        <div ng-show="isLoading" class="spinner"></div>
         <div class="pokemonGoApp-pokemonFilters">
             <input type="text" ng-model="pokemonNameFilter" placeholder="Filter by Pokemon" class="pokemonGoApp-pokemonNameFilter" />
         </div>
-        <table class="pokemonGoApp-table">
+        <table ng-hide="isLoading" class="pokemonGoApp-table">
             <thead class="pokemonGoApp-tableHead">
                 <tr class="orderByRow orderBy-{{pokemonOrder}} {{orderDescending ? 'isDescending' : ''}}">
                     <td class="pokemonGoApp-tableHead-id" ng-click="changeOrder('id')"><span>#</span></td>

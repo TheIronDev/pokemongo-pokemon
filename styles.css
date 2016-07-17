@@ -62,7 +62,7 @@ body {
  .orderBy-attack .pokemonGoApp-tableHead-attack span:after,
  .orderBy-defense .pokemonGoApp-tableHead-defense span:after,
  .orderBy-stamina .pokemonGoApp-tableHead-stamina span:after {
-     content: '▼';
+    content: '▲';
  }
 
 .isDescending.orderBy-id .pokemonGoApp-tableHead-id span:after,
@@ -73,7 +73,7 @@ body {
 .isDescending.orderBy-attack .pokemonGoApp-tableHead-attack span:after,
 .isDescending.orderBy-defense .pokemonGoApp-tableHead-defense span:after,
 .isDescending.orderBy-stamina .pokemonGoApp-tableHead-stamina span:after {
-    content: '▲';
+    content: '▼';
 }
 
 
@@ -89,7 +89,6 @@ body {
 }
 
 .spinner {
-    display: none;
     height: 15em;
     width: 15em;
     margin: 0 auto;
