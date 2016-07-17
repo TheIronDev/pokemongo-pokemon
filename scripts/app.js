@@ -1,6 +1,18 @@
 angular.module('pokemonGoPokemon', [])
   .controller('pokemonGoPokemonCtr', function($scope) {
 
+    $scope.orderDescending = false;
+    $scope.pokemonOrder = 'id';
+
+    $scope.changeOrder = function(newOrder) {
+      if ($scope.pokemonOrder === newOrder) {
+        $scope.orderDescending = !$scope.orderDescending;
+      } else {
+        $scope.orderDescending = false;
+      }
+      $scope.pokemonOrder = newOrder;
+    };
+
     // adding some mock data to get started
     $scope.pokemonList = [{
       "name": "bulbasaur",

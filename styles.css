@@ -40,3 +40,100 @@ body {
     border-top: 1px solid #ccc;
     padding: 1rem;
 }
+
+/* A simple way of showing the ascending/descending arrows. There's probably a better more angulary way though. */
+.orderByRow {
+    cursor: pointer;
+}
+.orderByRow span:after {
+    content: ' ';
+    display: inline-block;
+    font-size: 0.5rem;
+    height: 1rem;
+    width: 1rem;
+    vertical-align: middle;
+}
+
+.orderBy-id .pokemonGoApp-tableHead-id span:after,
+ .orderBy-name .pokemonGoApp-tableHead-name span:after,
+ .orderBy-candy .pokemonGoApp-tableHead-candy span:after,
+ .orderBy-captureRate .pokemonGoApp-tableHead-captureRate span:after,
+ .orderBy-fleeRate .pokemonGoApp-tableHead-fleeRate span:after,
+ .orderBy-attack .pokemonGoApp-tableHead-attack span:after,
+ .orderBy-defense .pokemonGoApp-tableHead-defense span:after,
+ .orderBy-stamina .pokemonGoApp-tableHead-stamina span:after {
+     content: '▼';
+ }
+
+.isDescending.orderBy-id .pokemonGoApp-tableHead-id span:after,
+.isDescending.orderBy-name .pokemonGoApp-tableHead-name span:after,
+.isDescending.orderBy-candy .pokemonGoApp-tableHead-candy span:after,
+.isDescending.orderBy-captureRate .pokemonGoApp-tableHead-captureRate span:after,
+.isDescending.orderBy-fleeRate .pokemonGoApp-tableHead-fleeRate span:after,
+.isDescending.orderBy-attack .pokemonGoApp-tableHead-attack span:after,
+.isDescending.orderBy-defense .pokemonGoApp-tableHead-defense span:after,
+.isDescending.orderBy-stamina .pokemonGoApp-tableHead-stamina span:after {
+    content: '▲';
+}
+
+
+/** Loader **/
+
+@-webkit-keyframes loaderSpins {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+@keyframes loaderSpins {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+.spinner {
+    display: none;
+    height: 15em;
+    width: 15em;
+    margin: 0 auto;
+
+    border-radius: 50%;
+    opacity: 0.5;
+
+    background: #ff4747; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ff4747 0%, #ff6060 46%, #000000 47%, #000000 54%, #ffffff 55%, #ffffff 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff4747), color-stop(46%,#ff6060), color-stop(47%,#000000), color-stop(54%,#000000), color-stop(55%,#ffffff), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ff4747 0%,#ff6060 46%,#000000 47%,#000000 54%,#ffffff 55%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ff4747 0%,#ff6060 46%,#000000 47%,#000000 54%,#ffffff 55%,#ffffff 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ff4747 0%,#ff6060 46%,#000000 47%,#000000 54%,#ffffff 55%,#ffffff 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ff4747 0%,#ff6060 46%,#000000 47%,#000000 54%,#ffffff 55%,#ffffff 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4747', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+    -webkit-animation: loaderSpins 1s linear infinite;
+    animation: loaderSpins 1s linear infinite;
+}
+.spinner:after {
+    content: ' ';
+
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 6em;
+    left: 6em;
+
+    background: #ffffff; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #ffffff 0%, #ffffff 48%, #000000 49%, #000000 49%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(48%,#ffffff), color-stop(49%,#000000), color-stop(49%,#000000)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 0%,#ffffff 48%,#000000 49%,#000000 49%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  #ffffff 0%,#ffffff 48%,#000000 49%,#000000 49%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #ffffff 0%,#ffffff 48%,#000000 49%,#000000 49%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #ffffff 0%,#ffffff 48%,#000000 49%,#000000 49%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+[ng-cloak] .pokemonGoApp-table,
+[ng-cloak] .pokemonGoApp-pokemonFilters {
+    display: none;
+}
+[ng-cloak] .spinner {
+    display: block;
+}
