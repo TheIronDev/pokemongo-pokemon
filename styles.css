@@ -1,0 +1,42 @@
+* {box-sizing: border-box;}
+
+body {
+    background: url(./images/pidgey.jpg) no-repeat bottom right #9F6B2F;
+    background-size: contain;
+    background-attachment: fixed;
+    font-family: "Titillium Web", "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+}
+
+.pokemonGoApp {
+    background: rgba(255,255,255, 0.9);
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 1rem 1rem 0;
+    width: 100%;
+    text-align: center;
+}
+.pokemonGoApp-pokemonFilters {
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    text-align: left;
+}
+.pokemonGoApp-pokemonNameFilter {
+}
+.pokemonGoApp-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.pokemonGoApp-tableHead {
+    background: #000;
+    color: #efefef;
+}
+.pokemonGoApp-tableHead td {
+    padding: 5px;
+}
+.pokemonGoApp-tableRow:nth-child(even) {
+    background: #ddd;
+}
+.pokemonGoApp-footer {
+    border-top: 1px solid #ccc;
+    padding: 1rem;
+}

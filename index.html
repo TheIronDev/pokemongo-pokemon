@@ -12,15 +12,42 @@
     <!--<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />-->
 </head>
 <body>
-<main ng-app="pokemonGoPokemon">
+<main class="pokemonGoApp" ng-app="pokemonGoPokemon">
     <header>
         <h1>PokemonGo - Pokemon Table</h1>
     </header>
     <section ng-controller="pokemonGoPokemonCtr">
-        {{dummyContent}}
+        <div class="pokemonGoApp-pokemonFilters">
+            <input type="text" ng-model="pokemonNameFilter" placeholder="Filter by Pokemon" class="pokemonGoApp-pokemonNameFilter" />
+        </div>
+        <table class="pokemonGoApp-table">
+            <thead class="pokemonGoApp-tableHead">
+                <tr>
+                    <td>Name</td>
+                    <td>Candy Required</td>
+                    <td>captureRate</td>
+                    <td>fleeRate</td>
+                    <td>Attack</td>
+                    <td>Defense</td>
+                    <td>Stamina</td>
+                </tr>
+            </thead>
+            <tbody class="pokemonGoApp-tableBody">
+                <tr ng-repeat="pokemon in pokemonList | filter:pokemonNameFilter" class="pokemonGoApp-tableRow">
+                    <td>{{pokemon.name}}</td>
+                    <td>{{pokemon.candy}}</td>
+                    <td>{{pokemon.captureRate}}</td>
+                    <td>{{pokemon.fleeRate}}</td>
+                    <td>{{pokemon.attack}}</td>
+                    <td>{{pokemon.defense}}</td>
+                    <td>{{pokemon.stamina}}</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
-    <footer>
+    <footer class="pokemonGoApp-footer">
         <a href="https://gist.github.com/ryankane/3b3d8c537bc898dae1e65b61d0d7efe9">Pokemon Data Source</a>
+        <a href="http://pldh.net/">Background Image by Teej/TopHat (copyright PLDH.net)</a>
     </footer>
 </main>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
