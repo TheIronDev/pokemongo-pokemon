@@ -45,6 +45,7 @@ body {
 .orderByRow {
     cursor: pointer;
 }
+.orderByRow span {position: relative}
 .orderByRow span:after {
     content: ' ';
     display: inline-block;
@@ -52,6 +53,8 @@ body {
     height: 1rem;
     width: 1rem;
     vertical-align: middle;
+    position: absolute;
+    top: 5px;
 }
 
 .orderBy-id .pokemonGoApp-tableHead-id span:after,
@@ -135,4 +138,15 @@ body {
 }
 [ng-cloak] .spinner {
     display: block;
+}
+
+/* Removing less important columns for mobile sizes */
+@media (max-width: 500px) {
+    .pokemonGoApp-table td:nth-child(1),
+    .pokemonGoApp-table td:nth-child(6),
+    .pokemonGoApp-table td:nth-child(7),
+    .pokemonGoApp-table td:nth-child(8),
+    .orderByRow span:after {
+        display: none;
+    }
 }
